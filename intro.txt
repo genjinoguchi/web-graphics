@@ -1,0 +1,16 @@
+For web graphics, there are two main technologies that are being used today:
+* SVG (Scalable Vector Graphics) : Gaining in popularity
+	* Vector format. Zooming in doesn't change the quality of the thing.
+	* Cons:
+		   * It's slow.
+		   * It doesn't play well with JQuery.
+		   * It overlays directly over the DOM.
+	* Pros:
+		   * It DOES play very well with the CSS.
+* Canvas : Most popular implementation right now
+	* Non-vector format. If you zoom in, then it won't look as good.
+    * it looks crappier than SVG.
+	* Fast
+ 	* Doesn't play well with the DOM.
+
+
